@@ -1,5 +1,4 @@
 include "console.iol"
-include "dependencieD.iol"
 
 interface dInterface {
 RequestResponse:
@@ -15,7 +14,7 @@ OneWay:
 execution{concurrent}
 
 inputPort dIn {
-Location: "socket://localhost:8003"
+Location: JDEP_LOCATION_d_dIn
 Protocol: sodep
 Interfaces: dInterface
 }
