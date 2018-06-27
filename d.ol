@@ -1,5 +1,5 @@
 include "console.iol"
-include "dependencies.iol"
+include "locations.iol"
 
 interface dInterface {
 RequestResponse:
